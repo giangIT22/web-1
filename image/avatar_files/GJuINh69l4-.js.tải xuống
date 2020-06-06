@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["JpEga"]); }
+
+__d("BaseFocusRing.react",["FocusWithinHandler.react","React","stylex"],(function(a,b,c,d,e,f){"use strict";var g={focused:{outline:"tr9jja99","@media (-webkit-min-device-pixel-ratio: 0)":{outline:"omy9p634"}},unfocused:{outline:"lzcic4wl"}};function a(a){var c=a.children,d=a.suppressFocusRing,e=d===void 0?!1:d;d=a.testOnly;return b("React").jsx(b("FocusWithinHandler.react"),{testOnly:d,children:function(a,b){return c(!e&&a&&b?g.focused:g.unfocused)}})}a.focusRingXStyle=g.focused;e.exports=a}),null);
